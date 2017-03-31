@@ -11,13 +11,12 @@ import UIKit
 
 class LiveViewController: UIViewController, YSSmallVideoDelegate{
     
-    var smallVideo = YSSmallVideo.init(frame: UIScreen.main.bounds, isFront: false)
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        let smallVideo = YSSmallVideo.init(frame: view.frame, isFront: true)
         view.addSubview(smallVideo)
         smallVideo.delegate = self
 

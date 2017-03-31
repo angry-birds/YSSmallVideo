@@ -25,7 +25,9 @@ class YSVideoRecordView: UIView, AVCaptureFileOutputRecordingDelegate{
     //视频捕获会话。它是input和output的桥梁。它协调着intput到output的数据传输
     let captureSession = AVCaptureSession()
     //前置摄像头
-    var frontVideoDevice = AVCaptureDevice.defaultDevice(withDeviceType: .builtInWideAngleCamera, mediaType: AVMediaTypeVideo, position: .front)
+    var frontVideoDevice = AVCaptureDevice.init(uniqueID: "com.apple.avfoundation.avcapturedevice.built-in_video:1")
+
+
     //后置摄像头
     var backVideoDevice = AVCaptureDevice.defaultDevice(withMediaType: AVMediaTypeVideo)
 

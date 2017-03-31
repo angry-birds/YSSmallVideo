@@ -106,6 +106,9 @@ class YSSmallVideo: UIView, YSVideoRecordDelegate, YSVideoPlayerDelegate {
 //MARK: PrivateResponse
     private func setupView() {
         
+        recordView.frame = UIScreen.main.bounds
+        playerView.frame = UIScreen.main.bounds
+        
         self.addSubview(recordView)
         recordView.delegate = self
         
