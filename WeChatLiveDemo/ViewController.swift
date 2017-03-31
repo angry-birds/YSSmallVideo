@@ -21,5 +21,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func toLiveVC(_ sender: Any) {
+        
+        self.present(LiveViewController(), animated: true, completion: nil)
+        
+    }
 }
 

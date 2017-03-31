@@ -14,6 +14,20 @@
 		7991773D1E8CD6C80079111B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7991773B1E8CD6C80079111B /* LaunchScreen.storyboard */; };
 		799177481E8CD6C80079111B /* WeChatLiveDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799177471E8CD6C80079111B /* WeChatLiveDemoTests.swift */; };
 		799177531E8CD6C80079111B /* WeChatLiveDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799177521E8CD6C80079111B /* WeChatLiveDemoUITests.swift */; };
+		799177611E8CD79E0079111B /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799177601E8CD79E0079111B /* LiveViewController.swift */; };
+		799177661E8CDBF30079111B /* YSVideoRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799177651E8CDBF30079111B /* YSVideoRecordView.swift */; };
+		799177681E8CDC460079111B /* YSVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799177671E8CDC460079111B /* YSVideoPlayerView.swift */; };
+		7991776A1E8CE2440079111B /* YSVideoRecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799177691E8CE2440079111B /* YSVideoRecordView.xib */; };
+		799177741E8CF0490079111B /* YSVideoPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799177731E8CF0490079111B /* YSVideoPlayerView.xib */; };
+		799177821E8CF1360079111B /* Shape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991777A1E8CF1360079111B /* Shape@2x.png */; };
+		799177831E8CF1360079111B /* Shape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991777B1E8CF1360079111B /* Shape@3x.png */; };
+		799177841E8CF1360079111B /* 反转镜头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991777C1E8CF1360079111B /* 反转镜头@2x.png */; };
+		799177851E8CF1360079111B /* 反转镜头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991777D1E8CF1360079111B /* 反转镜头@3x.png */; };
+		799177861E8CF1360079111B /* 对号-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991777E1E8CF1360079111B /* 对号-3@2x.png */; };
+		799177871E8CF1360079111B /* 对号-3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7991777F1E8CF1360079111B /* 对号-3@3x.png */; };
+		799177881E8CF1360079111B /* 错号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 799177801E8CF1360079111B /* 错号@2x.png */; };
+		799177891E8CF1360079111B /* 错号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 799177811E8CF1360079111B /* 错号@3x.png */; };
+		79AF07181E8DEC620003D76F /* YSSmallVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AF07171E8DEC620003D76F /* YSSmallVideo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,20 @@
 		7991774E1E8CD6C80079111B /* WeChatLiveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatLiveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		799177521E8CD6C80079111B /* WeChatLiveDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatLiveDemoUITests.swift; sourceTree = "<group>"; };
 		799177541E8CD6C80079111B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799177601E8CD79E0079111B /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		799177651E8CDBF30079111B /* YSVideoRecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSVideoRecordView.swift; sourceTree = "<group>"; };
+		799177671E8CDC460079111B /* YSVideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSVideoPlayerView.swift; sourceTree = "<group>"; };
+		799177691E8CE2440079111B /* YSVideoRecordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSVideoRecordView.xib; sourceTree = "<group>"; };
+		799177731E8CF0490079111B /* YSVideoPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSVideoPlayerView.xib; sourceTree = "<group>"; };
+		7991777A1E8CF1360079111B /* Shape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shape@2x.png"; sourceTree = "<group>"; };
+		7991777B1E8CF1360079111B /* Shape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shape@3x.png"; sourceTree = "<group>"; };
+		7991777C1E8CF1360079111B /* 反转镜头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "反转镜头@2x.png"; sourceTree = "<group>"; };
+		7991777D1E8CF1360079111B /* 反转镜头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "反转镜头@3x.png"; sourceTree = "<group>"; };
+		7991777E1E8CF1360079111B /* 对号-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对号-3@2x.png"; sourceTree = "<group>"; };
+		7991777F1E8CF1360079111B /* 对号-3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对号-3@3x.png"; sourceTree = "<group>"; };
+		799177801E8CF1360079111B /* 错号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "错号@2x.png"; sourceTree = "<group>"; };
+		799177811E8CF1360079111B /* 错号@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "错号@3x.png"; sourceTree = "<group>"; };
+		79AF07171E8DEC620003D76F /* YSSmallVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSSmallVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +125,10 @@
 		799177311E8CD6C80079111B /* WeChatLiveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				799177641E8CD94D0079111B /* YSSmallVideo */,
 				799177321E8CD6C80079111B /* AppDelegate.swift */,
 				799177341E8CD6C80079111B /* ViewController.swift */,
+				799177601E8CD79E0079111B /* LiveViewController.swift */,
 				799177361E8CD6C80079111B /* Main.storyboard */,
 				799177391E8CD6C80079111B /* Assets.xcassets */,
 				7991773B1E8CD6C80079111B /* LaunchScreen.storyboard */,
@@ -124,6 +154,34 @@
 			);
 			path = WeChatLiveDemoUITests;
 			sourceTree = "<group>";
+		};
+		799177641E8CD94D0079111B /* YSSmallVideo */ = {
+			isa = PBXGroup;
+			children = (
+				799177791E8CF1360079111B /* Image */,
+				799177651E8CDBF30079111B /* YSVideoRecordView.swift */,
+				799177691E8CE2440079111B /* YSVideoRecordView.xib */,
+				799177671E8CDC460079111B /* YSVideoPlayerView.swift */,
+				799177731E8CF0490079111B /* YSVideoPlayerView.xib */,
+				79AF07171E8DEC620003D76F /* YSSmallVideo.swift */,
+			);
+			path = YSSmallVideo;
+			sourceTree = SOURCE_ROOT;
+		};
+		799177791E8CF1360079111B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				7991777A1E8CF1360079111B /* Shape@2x.png */,
+				7991777B1E8CF1360079111B /* Shape@3x.png */,
+				7991777C1E8CF1360079111B /* 反转镜头@2x.png */,
+				7991777D1E8CF1360079111B /* 反转镜头@3x.png */,
+				7991777E1E8CF1360079111B /* 对号-3@2x.png */,
+				7991777F1E8CF1360079111B /* 对号-3@3x.png */,
+				799177801E8CF1360079111B /* 错号@2x.png */,
+				799177811E8CF1360079111B /* 错号@3x.png */,
+			);
+			path = Image;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -235,9 +293,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799177831E8CF1360079111B /* Shape@3x.png in Resources */,
+				799177841E8CF1360079111B /* 反转镜头@2x.png in Resources */,
+				799177821E8CF1360079111B /* Shape@2x.png in Resources */,
+				799177741E8CF0490079111B /* YSVideoPlayerView.xib in Resources */,
+				799177861E8CF1360079111B /* 对号-3@2x.png in Resources */,
+				7991776A1E8CE2440079111B /* YSVideoRecordView.xib in Resources */,
+				799177881E8CF1360079111B /* 错号@2x.png in Resources */,
+				799177891E8CF1360079111B /* 错号@3x.png in Resources */,
 				7991773D1E8CD6C80079111B /* LaunchScreen.storyboard in Resources */,
 				7991773A1E8CD6C80079111B /* Assets.xcassets in Resources */,
+				799177871E8CF1360079111B /* 对号-3@3x.png in Resources */,
 				799177381E8CD6C80079111B /* Main.storyboard in Resources */,
+				799177851E8CF1360079111B /* 反转镜头@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +330,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				799177661E8CDBF30079111B /* YSVideoRecordView.swift in Sources */,
+				79AF07181E8DEC620003D76F /* YSSmallVideo.swift in Sources */,
 				799177351E8CD6C80079111B /* ViewController.swift in Sources */,
+				799177611E8CD79E0079111B /* LiveViewController.swift in Sources */,
+				799177681E8CDC460079111B /* YSVideoPlayerView.swift in Sources */,
 				799177331E8CD6C80079111B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +586,7 @@
 				799177591E8CD6C80079111B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7991775A1E8CD6C80079111B /* Build configuration list for PBXNativeTarget "WeChatLiveDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +595,7 @@
 				7991775C1E8CD6C80079111B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7991775D1E8CD6C80079111B /* Build configuration list for PBXNativeTarget "WeChatLiveDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +604,7 @@
 				7991775F1E8CD6C80079111B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
